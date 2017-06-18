@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.3.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails',          '4.2.5'
 gem 'bootstrap-sass', '3.3.7'
@@ -59,4 +60,6 @@ end
 
 group :production do
   gem 'pg', '0.18.4'
+  gem 'rails_12factor', '0.0.2'
+  gem 'puma',           '2.11.1'
 end
