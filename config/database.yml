@@ -21,15 +21,15 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+  #<<: *default
+  #database: db/production.sqlite3
   
-  #adapter: postgresql
-  #encoding: utf8
-  #database: d7565ajr34njr9
-  #pool: 5
-  #username: bmttasegnehpce    #-> *** data from heroku's postgres user details page
-  #password: c8937d1c1beab21217a1e96fd2618981d2b9616e20357f87e8e1f7785ac278a3
-  #host: ec2-174-129-224-33.compute-1.amazonaws.com
+  adapter: postgresql
+  encoding: utf8
+  database: dn162g4r2vr4r
+  pool: 5
+  username: oizgvuskguglhz    #-> *** data from heroku's postgres user details page
+  password: 2bc1ac47357dd66dd56b0fcfe3459b4d4b44c063ba6a312112fca38a15942b9d
+  host: ec2-54-225-68-71.compute-1.amazonaws.com
 
 
