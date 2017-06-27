@@ -5,7 +5,7 @@ ruby '2.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails',          '4.2.5'
 gem 'bootstrap-sass', '3.3.7'
-#gem 'bundler', '~> 1.15', '>= 1.15.1'
+gem 'bundler', '~> 1.15', '>= 1.15.1'
 
 gem 'bcrypt',         '3.1.11'
 
@@ -63,5 +63,5 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor', '~> 0.0.3'
-  gem 'puma',           '2.11.1'
+  #gem 'puma',           '2.11.1'
 end

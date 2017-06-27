@@ -234,8 +234,6 @@ GEM
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     pg (0.18.4)
-    puma (2.11.1)
-      rack (>= 1.1, < 2.0)
     rack (1.6.8)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -321,6 +319,7 @@ DEPENDENCIES
   bcrypt (= 3.1.11)
   bootstrap-sass (= 3.3.7)
   bootstrap-will_paginate (= 1.0.0)
+  bundler (~> 1.15, >= 1.15.1)
   byebug
   carrierwave (= 1.1.0)
   coffee-rails (~> 4.1.0)
@@ -330,7 +329,6 @@ DEPENDENCIES
   jquery-rails
   mini_magick (= 4.7.0)
   pg
-  puma (= 2.11.1)
   rails (= 4.2.5)
   rails_12factor (~> 0.0.3)
   sass-rails (~> 5.0)
@@ -346,4 +344,4 @@ RUBY VERSION
    ruby 2.3.0p0
 
 BUNDLED WITH
-   1.13.7
+   1.15.1
