@@ -20,7 +20,7 @@ Rails.application.configure do
   
   #if running locally, host should be localhost:3000
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
-
+  
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
